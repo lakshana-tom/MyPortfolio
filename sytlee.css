@@ -19,9 +19,6 @@ body {
 }
 
 
-/* =========================
-   3D BACKGROUND
-========================= */
 
 body::before {
     content: "";
@@ -111,7 +108,6 @@ body::after {
 }
 
 
-/* Small 3D shapes */
 
 .blob {
     position: fixed;
@@ -235,9 +231,6 @@ body::after {
 }
 
 
-/* =========================
-   CONTAINER
-========================= */
 
 .container {
     width: 90%;
@@ -246,9 +239,7 @@ body::after {
 }
 
 
-/* =========================
-   NAVBAR
-========================= */
+
 
 .navbar {
     position: fixed;
@@ -325,9 +316,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   HERO
-========================= */
 
 .hero {
     min-height: 100vh;
@@ -418,9 +406,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   BUTTONS
-========================= */
 
 .buttons {
     display: flex;
@@ -484,11 +469,6 @@ nav a:hover {
 
     border-color: #ff4fa3;
 }
-
-
-/* =========================
-   PROFILE 3D
-========================= */
 
 .profile-section {
     height: 500px;
@@ -595,10 +575,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   ORBITS
-========================= */
-
 .circle {
     position: absolute;
 
@@ -669,9 +645,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   FLOATING TAGS
-========================= */
 
 .tag {
     position: absolute;
@@ -740,9 +713,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   SECTIONS
-========================= */
 
 .section {
     padding: 110px 0;
@@ -790,10 +760,6 @@ nav a:hover {
         0 0 20px #ff4fa355;
 }
 
-
-/* =========================
-   ABOUT
-========================= */
 
 .about-grid {
     display: grid;
@@ -904,9 +870,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   EDUCATION
-========================= */
 
 .timeline {
     max-width: 850px;
@@ -1025,10 +988,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   SKILLS
-========================= */
-
 .skills {
     display: grid;
 
@@ -1117,10 +1076,6 @@ nav a:hover {
         0 0 15px #ff4fa3aa;
 }
 
-
-/* =========================
-   PROJECTS
-========================= */
 
 .projects {
     display: grid;
@@ -1252,10 +1207,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   HOBBIES
-========================= */
-
 .hobbies {
     display: grid;
 
@@ -1311,9 +1262,6 @@ nav a:hover {
 }
 
 
-/* =========================
-   CONTACT
-========================= */
 
 .contact {
     padding: 110px 0;
@@ -1503,9 +1451,6 @@ form button:hover {
 }
 
 
-/* =========================
-   FOOTER
-========================= */
 
 footer {
     padding: 25px 5%;
@@ -1523,10 +1468,6 @@ footer {
     font-size: 11px;
 }
 
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 900px) {
 
